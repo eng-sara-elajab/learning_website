@@ -280,7 +280,7 @@
                             @if(Auth::guard('admin')->user()->id == 1)
                                 <li class="nav-item has-treeview">
                                     <a href="{{route('admin.admins_list')}}" class="nav-link">
-                                        <i class="nav-icon fas fa-user-cog"></i><p>Admins List</p>
+                                        <i class="nav-icon fa fa-user-cog"></i><p>Admins List</p>
                                     </a>
                                 </li>
                                 <li class="nav-item has-treeview">
