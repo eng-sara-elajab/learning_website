@@ -15,23 +15,23 @@
 
         <!-- Bootstrap -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="{{asset('delux/css/bootstrap.min.css')}}"/>
+        <link rel="stylesheet" href="{{secure_asset('delux/css/bootstrap.min.css')}}"/>
         <!-- Fonts-style -->
-        <link rel="stylesheet" href="{{asset('delux/css/styles.css')}}"/>
+        <link rel="stylesheet" href="{{secure_asset('delux/css/styles.css')}}"/>
         <!-- Fonts-style -->
-        {{--<link rel="stylesheet" href="{{asset('delux/css/font-awesome.min.css')}}"/>--}}
+        {{--<link rel="stylesheet" href="{{secure_asset('delux/css/font-awesome.min.css')}}"/>--}}
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Modal-Effect -->
-        <link href="{{asset('delux/css/component.css')}}" rel="stylesheet">
+        <link href="{{secure_asset('delux/css/component.css')}}" rel="stylesheet">
         <!-- owl-carousel -->
-        <link href="{{asset('delux/css/owl.carousel.css')}}" rel="stylesheet" type="text/css" media="screen">
-        <link href="{{asset('delux/css/owl.theme.css')}}" rel="stylesheet" type="text/css" media="screen">
+        <link href="{{secure_asset('delux/css/owl.carousel.css')}}" rel="stylesheet" type="text/css" media="screen">
+        <link href="{{secure_asset('delux/css/owl.theme.css')}}" rel="stylesheet" type="text/css" media="screen">
         <!-- Template Styles-->
-        <link rel="stylesheet" href="{{asset('delux/css/style.css')}}"/>
+        <link rel="stylesheet" href="{{secure_asset('delux/css/style.css')}}"/>
         <!-- Template Color-->
-        <link rel="stylesheet" type="text/css" href="{{asset('delux/css/green.css')}}" media="screen" id="color-opt" />
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('delux/css/green.css')}}" media="screen" id="color-opt" />
 
-        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
 
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     </head>
@@ -276,31 +276,31 @@
          ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <!-- initialize jQuery Library -->
-        {{--<script src="{{asset('delux/js/jquery.min.js')}}"></script>--}}
+        {{--<script src="{{secure_asset('delux/js/jquery.min.js')}}"></script>--}}
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <!-- jquery easing -->
-        <script src="{{asset('delux/js/jquery.easing.min.js')}}"></script>
+        <script src="{{secure_asset('delux/js/jquery.easing.min.js')}}"></script>
         <!-- Bootstrap -->
-        <script src="{{asset('delux/js/bootstrap.min.js')}}"></script>
+        <script src="{{secure_asset('delux/js/bootstrap.min.js')}}"></script>
         <!-- modal-effect -->
-        <script src="{{asset('delux/js/classie.js')}}"></script>
-        <script src="{{asset('delux/js/modalEffects.js')}}"></script>
+        <script src="{{secure_asset('delux/js/classie.js')}}"></script>
+        <script src="{{secure_asset('delux/js/modalEffects.js')}}"></script>
         <!-- Counter-up -->
-        <script src="{{asset('delux/js/waypoints.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('delux/js/jquery.counterup.min.js')}}" type="text/javascript"></script>
+        <script src="{{secure_asset('delux/js/waypoints.min.js')}}" type="text/javascript"></script>
+        <script src="{{secure_asset('delux/js/jquery.counterup.min.js')}}" type="text/javascript"></script>
         <!-- SmoothScroll -->
-        <script src="{{asset('delux/js/SmoothScroll.js')}}"></script>
+        <script src="{{secure_asset('delux/js/SmoothScroll.js')}}"></script>
         <!-- Parallax -->
-        <script src="{{asset('delux/js/jquery.stellar.min.js')}}"></script>
+        <script src="{{secure_asset('delux/js/jquery.stellar.min.js')}}"></script>
         <!-- Jquery-Nav -->
-        <script src="{{asset('delux/js/jquery.nav.js')}}"></script>
+        <script src="{{secure_asset('delux/js/jquery.nav.js')}}"></script>
         <!-- Owl carousel -->
-        <script type="text/javascript" src="{{asset('delux/js/owl.carousel.min.js')}}"></script>
+        <script type="text/javascript" src="{{secure_asset('delux/js/owl.carousel.min.js')}}"></script>
         <!-- App JS -->
-        <script src="{{asset('delux/js/app.js')}}"></script>
+        <script src="{{secure_asset('delux/js/app.js')}}"></script>
 
         <!-- Switcher script for demo only -->
-        <script type="text/javascript" src="{{asset('delux/js/switcher.js')}}"></script>
+        <script type="text/javascript" src="{{secure_asset('delux/js/switcher.js')}}"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
